@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog — SparseTrace</title>
+  <meta name="description" content="SparseTrace notes and updates." />
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="SparseTrace RSS" href="rss.xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="about.html">
+      <img src="assets/sparsetrace-logo.png" alt="SparseTrace logo" height="28"><span>SparseTrace</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="events.html">Events</a>
+      <a aria-current="page" href="blog.html">Blog</a>
+      <a class="btn" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Blog</h1>
+      <p class="lede">Short notes, dev logs, and paper teases.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <ul class="posts">
+        <li class="card">
+          <h3><a href="#">Why “SparseTrace”?</a></h3>
+          <p>A short note on sparsity, structure, and tracing information through complex systems. <span class="muted">— draft</span></p>
+        </li>
+        <li class="card">
+          <h3><a href="#">Diffusion ↔ Attention: a roadmap</a></h3>
+          <p>Sketching the connections we’re exploring and what to expect from upcoming posts. <span class="muted">— draft</span></p>
+        </li>
+      </ul>
+
+      <form class="card signup" action="https://formspree.io/f/your-id" method="POST">
+        <label>Subscribe for updates
+          <input type="email" name="email" placeholder="you@lab.org" required>
+        </label>
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="y"></span> SparseTrace.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
