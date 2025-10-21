@@ -1,4 +1,4 @@
-// script.js
+// Mobile nav toggle + year stamp
 const btn = document.querySelector('.menu-btn');
 const nav = document.getElementById('nav');
 if (btn && nav) {
