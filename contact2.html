@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — SparseTrace</title>
+  <meta name="description" content="Contact SparseTrace for collaborations, roles, and speaking invites." />
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="about.html">
+      <img src="assets/sparsetrace-logo.png" alt="SparseTrace logo" height="28"><span>SparseTrace</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="events.html">Events</a>
+      <a href="blog.html">Blog</a>
+      <a aria-current="page" class="btn" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Contact</h1>
+      <p class="lede">Collaborations, roles, or press—say hello.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <form class="card form" action="https://formspree.io/f/your-id" method="POST">
+        <label>Name <input name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="6" required></textarea></label>
+        <button class="btn" type="submit">Send</button>
+        <p class="muted small">We’ll only use your email to reply. No newsletters unless you opt in.</p>
+      </form>
+      <div class="card">
+        <h3>Elsewhere</h3>
+        <p><a class="link" href="#" rel="noopener">GitHub (soon)</a> • <a class="link" href="#" rel="noopener">Twitter/X (soon)</a> • <a class="link" href="#" rel="noopener">Email</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="y"></span> SparseTrace.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
