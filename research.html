@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Research — SparseTrace</title>
+  <meta name="description" content="SparseTrace research: RFDiffusion, Boltzmann Generators for MD, Cryo-EM compression, and theoretical links between diffusion and self-attention." />
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="about.html">
+      <img src="assets/sparsetrace-logo.png" alt="SparseTrace logo" height="28"><span>SparseTrace</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="about.html">About</a>
+      <a aria-current="page" href="research.html">Research</a>
+      <a href="events.html">Events</a>
+      <a href="blog.html">Blog</a>
+      <a class="btn" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero small">
+    <div class="wrap">
+      <h1>Research</h1>
+      <p class="lede">Works in progress; preprints and code soon. Get in touch to collaborate.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>AI4Research</h2>
+      <div class="grid three">
+        <article class="card">
+          <h3>RFDiffusion Extensions</h3>
+          <p>Exploring conditioning strategies, training regimes, and evaluation suites for protein & binder design.</p>
+          <p><span class="badge">in progress</span></p>
+        </article>
+        <article class="card">
+          <h3>Boltzmann Generators for MD</h3>
+          <p>Learning proposal distributions for rare-event sampling in molecular dynamics; benchmarking vs. enhanced sampling baselines.</p>
+          <p><span class="badge">in progress</span></p>
+        </article>
+        <article class="card">
+          <h3>Cryo-EM Compression</h3>
+          <p>Efficient, information-preserving codecs tailored to reconstruction pipelines and downstream structure prediction.</p>
+          <p><span class="badge">in progress</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Research4AI</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>Diffusion ↔ Self-Attention</h3>
+          <p>Formal connections between iterative denoising and attention dynamics; implications for scaling laws and architecture design.</p>
+          <ul class="bullets small">
+            <li>Shared energy-based perspective</li>
+            <li>Attention as learned transport</li>
+            <li>Practical cross-overs: hybrid blocks</li>
+          </ul>
+          <p><span class="badge">in progress</span></p>
+        </article>
+        <article class="card">
+          <h3>Tooling & Open Datasets</h3>
+          <p>Reusable, well-documented code paths and synthetic benchmarks to make comparisons honest.</p>
+          <p><span class="badge neutral">planning</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="y"></span> SparseTrace.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
